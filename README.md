@@ -1,2 +1,2 @@
 # Ola Mundo
- Primeiro repositorido do curso de Git HUb
+ Primeiro repositório do curso de Git HUb
