@@ -3,6 +3,7 @@
 Hello guys
 
 This project I made for the process of a company called BIX in which I had to create a data pipeline, from extracting data from sources such as api, postgresql database and parquet file, going through the treatment, to making it available in the database. data for the user.
+To access the code, open the pipeline_bix_DAG.py file.
 
 For this to be possible, in the first step I had to enable the airflow orchestrator in my place using docker.
 
