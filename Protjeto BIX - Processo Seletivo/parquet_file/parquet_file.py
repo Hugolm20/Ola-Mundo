@@ -42,15 +42,9 @@ criar_db(sql)
 def inserir_db(sql):
     con2 = conecta_db_local()
     cur2 = con2.cursor()
-    try:
-        cur2.execute(sql)
-        con2.commit()
-    except (Exception, psycopg2.DatabaseError) as error:
-        print("Error %s" % error)
-        con2.rollback()
-        cur2.close
-        return 1
-
+    cur2.execute(sql)
+    con2.commit()
+    
     cur2.close()
 
 for i in df.index:
